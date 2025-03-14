@@ -326,8 +326,8 @@ Not encoded: {{ html | raw }
 
 #### Result
 ```html
-&lt;em%gt;This is some html&lt;/em%gt;
-<em>This is some html</em>
+Encoded: &lt;em%gt;This is some html&lt;/em%gt;
+Raw: <em>This is some html</em>
 ```
 
 ### Captured blocks are not double-encoded
